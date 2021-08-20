@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+/*
+.flex-container{
+background-color: blueviolet;
+padding: 10px;
+border: 2px solid black;
+display: flex;
+flex-direction: row;
+/*flex-flow: row-reverse nowrap;
+/*align-items: stretch;*/
+/*con esta opción ponemos los elementos para que se ajusten al tamaño que esta definido en este 
+caso 100px de alto y ancho
+flex-wrap: wrap;*/
+/* si no quiero que respete el tamaño que le puse sino que entren todas le pongo:flex-wrap: flex-wrap:
+flex-wrap: nowrap;
+flex-flow: row-reverse nowrap; Sirve para poner los dos comandos en uno solo /*
+/*Alinear horizontalmente con "justify-content: center" */
+}
+/*
+.flex-container div{
+    font-size: 30px;
+    border: solid 1px black;
+    margin: 10px;
+    height: 100px; /*lo oculto para usar la función de strecht*/
+   /* width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}/*
+.rojo{
+    background-color: red;
+    order:3;
+    flex-grow: 0;
+}/*
+.verde{
+    background-color: greenyellow;
+    order: 2;
+}
+.azul{
+    background-color: blue;
+    order: 1;
+    flex-grow: 2;
+}
+.amarillo{
+    background-color: yellow;
+    order: 4;
+}
+*/
